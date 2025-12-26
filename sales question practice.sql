@@ -1,4 +1,4 @@
-﻿create database ZS
+﻿
 
 create table sales_zs
 (product_id int,
@@ -473,3 +473,4 @@ INNER JOIN Customers b
     ON a.CustomerID = b.CustomerID
 GROUP BY b.City
 ORDER BY TotalSales DESC;
+
